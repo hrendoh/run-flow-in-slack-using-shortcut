@@ -1,0 +1,14 @@
+description: Hello World Example App
+commands:
+  /apex-hello:
+    action:
+      definition: apex__action__SayHello
+    title: Say Hello
+    description: A command to say Hello
+  /add-task:
+    action:
+      definition: flow__requestHandler
+      properties:
+        flowApiName: CreateTask
+    title: Update Account
+    description: A command to update Account
